@@ -1,0 +1,12 @@
+figure {
+    border: solid red 2px;
+    width: 50%;
+}
+
+figcaption {
+    border: solid black 2px;
+}
+
+img {
+    width: 100%;
+}
