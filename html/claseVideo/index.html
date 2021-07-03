@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manejo de la etiqueta video en HTML</title>
+
+    <meta name="robots" content="index, follow" />
+    <meta name="description" content="uitlizacion de la etiqueta video" /> 
+  </head>
+  <body>
+    <main>
+      <section>
+        <!--controls (controles), preload poco tiempo de espera(k se descarge desde antes)-->
+        <video src="./mi-10-ultra-design.mp4#t=5,22" controls preload="auto"></video>
+
+        <!--insertar videos con el elemento source-->
+        <video controls preload="auto">
+          <source src="./mi-10-ultra-design.mp4#t=5,22">
+          <source src="./mi-10-ultra-design.m4v#t=5,22">
+        </video>
+
+        <!--insertar videos de youtube-->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/X7DW3__byj8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </section>
+    </main>
+  </body>
+</html>
