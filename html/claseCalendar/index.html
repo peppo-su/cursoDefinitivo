@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calendario</title>
+  </head>
+  <body>
+     <!-- clase sobre calendarios y los atributos autocomplete y require-->
+    <main>
+      <!-- name atributo para enviar la informacion del input, enviar a la base de datos  -->
+      <!-- <form action="">
+        <label for="hora">
+          <span>Hora</span>
+          <input type="time" id="hora" name="hora"> 
+        </label>
+        <label for="dia">
+          <span>Dia</span>
+          <input type="date" id="dia" name="dia"> 
+        </label>
+        <label for="semana">
+          <span>Semana</span>
+          <input type="week" id="semana" name="semana"> 
+        </label>
+        <label for="mes">
+          <span>Mes</span>
+          <input type="month" id="mes" name="mes"> 
+        </label>
+        <input type="submit" value="Enviar">
+      </form> -->
+      <!-- <hr>
+      <form action="">
+        <label for="calendario">
+          <span>calendario</span>
+          <input type="datetime-local" name="calendario" id="calendario">
+        </label>
+        <input type="submit" value="Enviar">
+      </form> -->
+      <hr>
+      <!--autocomplete, muestra anteriores respuestas -->
+      <!--required, es necesario completar el campo para enviar el formulario-->
+      <form action="" autocomplete="off">
+        <label for="nombre">
+          <span> What's your name?</span>
+          <input type="text" name="nombre" id="nombre" autocomplete="name" required>
+        </label> <br />
+        <label for="correo">
+          <span>What's your email?</span>
+          <input type="email" name="correo" id="correo" autocomplete="email" required>
+        </label> <br />
+        <label for="pais">
+          <span>Where are you from?</span>
+          <input type="text" name="pais" id="pais" autocomplete="country" required>
+        </label> <br />
+        <label for="cp">
+          <span>Which is your postal code?</span>
+          <input type="text" name="cp" id="cp" autocomplete="postal-code" required>
+        </label> <br />
+        <input type="submit" value="Enviar">
+      </form>
+      <!--shortcut emmet para crear formularios 
+        form>label*4>span+input-->
+    </main>
+  </body>
+</html>
