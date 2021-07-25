@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista del Super</title>
+    <meta
+      name="description"
+      content="No olvides lo que debes comprar en el super"
+    />
+    <meta name="robots" content="index, follow" />
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <section>
+        <h1>¡Soy la lista del super!</h1>
+        <h2>Listado de productos a comprar:</h2>
+        <ul>
+          <li>Frutas:</li>
+          <ol>
+            <li>
+              <a href="https://www.pequerecetas.com/receta/manzana-18-recetas/"
+                >Manzana</a
+              >
+            </li>
+            <figure>
+              <img
+                src="./images/manzanas.png"
+                alt="Deliciosas manzanas"
+                width="100"
+              />
+              <figcaption>Manzana roja o verde</figcaption>
+            </figure>
+            <li>
+              <a
+                href="https://www.directoalpaladar.com/recetario/aprovechar-platanos-maduros-recetas-bizcochos-tartas-helados"
+                >Platano</a
+              >
+            </li>
+            <figure>
+              <img
+                src="./images/platanos.png"
+                alt="Deliciosos Platanos"
+                width="100"
+              />
+              <figcaption>Platanos dulces</figcaption>
+            </figure>
+          </ol>
+          <li>Carnes:</li>
+          <ol>
+            <li>
+              <a href="https://www.cocinacaserayfacil.net/recetas-con-pollo/"
+                >Pollo</a
+              >
+            </li>
+            <figure>
+              <img src="./images/pollo.png" alt="Delicioso Pollo" width="100" />
+              <figcaption>Carne de pollo</figcaption>
+            </figure>
+            <li>
+              <a
+                href="https://www.cocinafacil.com.mx/recetas/recetas-de-carne-molida/"
+                >Carne Molida</a
+              >
+            </li>
+            <figure>
+              <img
+                src="./images/carne-molida.png"
+                alt="Deliciosa carne molida"
+                width="100"
+              />
+              <figcaption>Carne de res</figcaption>
+            </figure>
+          </ol>
+          <li>Verduras:</li>
+          <ol>
+            <li>
+              <a
+                href="https://www.directoalpaladar.com/directo-al-paladar/11-recetas-limon-irresistibles-todos-tiempos"
+                >Limón</a
+              >
+            </li>
+            <figure>
+              <img src="./images/limon.png" alt="Delicioso limon" width="100" />
+              <figcaption>Limon</figcaption>
+            </figure>
+            <li>
+              <a
+                href="https://www.directoalpaladar.com/ingredientes-y-alimentos/nuestras-mejores-47-recetas-zanahoria"
+                >Zanahoria</a
+              >
+            </li>
+            <figure>
+              <img
+                src="./images/zanahoria.png"
+                alt="Deliciosa zanahoria"
+                width="100"
+              />
+              <figcaption>Zanahoria</figcaption>
+            </figure>
+          </ol>
+        </ul>
+      </section>
+      <section>
+        <h2>Video explicativo de Compras:</h2>
+        <figure>
+          <video
+            src="images/1- Presentación del curso.mp4"
+            controls
+            preload="auto"
+            width="400"
+            height="225"
+          ></video>
+          <figcaption>Video en detalle como hacer compras</figcaption>
+        </figure>
+      </section>
+      <section>
+        <figure>
+          <h2>Formulario Responsable de Compra:</h2>
+          <form action="">
+            <label for="nombre-resposable">
+              <span>¿Cuál es el nombre del responsable?</span>
+              <input
+                type="text"
+                id="nombre-responsable"
+                placeholder="Introduce tu nombre"
+              /><br />
+            </label>
+            <label for="dia-compra">
+              <span>Fecha que se hará la compra</span>
+              <input type="date" id="dia-compra" /><br />
+            </label>
+            <label for="hora-compra">
+              <span>Hora en que se hará la compra</span>
+              <input type="time" id="hora-compra" /><br />
+            </label>
+          </form>
+        </figure>
+      </section>
+      <section>
+        <figure>
+          <h2>Formulario Calendar</h2>
+          <form action="">
+            <label for="hora">
+              <span>Horario de Viaje</span>
+              <input type="time" id="hora" name="hora" /><br />
+            </label>
+            <label for="dia">
+              <span>Día del Viaje</span>
+              <input type="date" id="dia" name="dia" /><br />
+            </label>
+            <label for="semana">
+              <span>Semana del Viaje</span>
+              <input type="week" id="semana" name="semana" /><br />
+            </label>
+            <label for="mes">
+              <span>Mes de Viaje</span>
+              <input type="month" id="mes" name="mes" />
+            </label>
+            <input type="submit" />
+          </form>
+        </figure>
+      </section>
+      <section>
+        <figure>
+          <h2>Formulario Calendar Completo</h2>
+          <form action="">
+            <label for="calendario">
+              <span>Calendario Completo</span>
+              <input type="datetime-local" id="calendario" name="calendario" />
+            </label>
+            <input type="submit" value="Me voy de viaje" />
+          </form>
+        </figure>
+      </section>
+      <section>
+        <figure>
+          <h2>Formulario con Autocompletado:</h2>
+          <form action="">
+            <label for="nombre">
+              <span>¿Cuál es tu nombre?</span>
+              <input
+                type="text"
+                name="nombre"
+                id="nombre"
+                autocomplete="name"
+                required
+              /><br />
+            </label>
+            <label for="correo">
+              <span>¿Cuál es tu email?</span>
+              <input
+                type="email"
+                name="correo"
+                id="correo"
+                autocomplete="email"
+                required
+              /><br />
+            </label>
+            <label for="pais">
+              <span>¿Cuál es tu país?</span>
+              <input
+                type="text"
+                name="pais"
+                id="pais"
+                autocomplete="country"
+                required
+              /><br />
+            </label>
+            <label for="cp">
+              <span>¿Cuál es tu código postal?</span>
+              <input
+                type="text"
+                name="cp"
+                id="cp"
+                autocomplete="postal-code"
+                required
+              />
+            </label>
+            <input type="submit" />
+          </form>
+        </figure>
+      </section>
+      <h2>Crear Lista con Comando Select - No recomendado</h2>
+      <section>
+        <figure>
+          <form action="">
+            <select name="destinos" id="">
+              <option value="España">España</option>
+              }
+              <option value="Alemania">Alemania</option>
+              <option value="Suiza">Suiza</option>
+              <option value="Japón">Japón</option>
+              <option value="Suecia">Suecia</option>
+              <option value="Zimbabue">Zimbabue</option>
+              <option value="Chile">Chile</option>
+              <option value="México">México</option>
+              <option value="Perú">Perú</option>
+              <option value="Venezuela">Venezuela</option>
+              <input type="submit" />
+            </select>
+          </form>
+        </figure>
+      </section>
+      <h2>Creación de Lista con Datalist - Práctica recomendada</h2>
+      <section>
+        <figure>
+          <form action="">
+            <input list="destinos2" name="destinos2" />
+            <datalist id="destinos2">
+              <option value="España"></option>
+              <option value="Alemania"></option>
+              <option value="Suiza"></option>
+              <option value="Japón"></option>
+              <option value="Suecia"></option>
+              <option value="Zimbabue"></option>
+              <option value="Chile"></option>
+              <option value="México"></option>
+              <option value="Perú"></option>
+              <option value="Venezuela"></option>
+            </datalist>
+            <input type="submit" />
+          </form>
+        </figure>
+      </section>
+    </main>
+    <footer>
+      <p>Creado con amor por Orlando Altamiranda con ayuda del Team Platzi</p>
+    </footer>
+  </body>
+</html>

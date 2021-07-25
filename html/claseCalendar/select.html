@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manejo de select | </title>
+
+    <meta name="description" content="manejo de la etiqueta select y datalist">
+    <meta name="robots" content="index, follow">
+  </head>
+  <body>
+    <header>
+    </header>
+    <main>
+      <select name="cursos" id="name">
+        <option value="JS">JS</option>
+        <option value="Html5">Html5</option>
+        <option value="Css3">Css3</option>
+        <option value="Web Standars">Web Standars</option>
+      </select>
+
+      <p>En k curso kieres inscribirte?</p>
+      <input list="cursos">
+      <datalist id="cursos">
+        <option value="Javascript"></option>
+        <option value="Html5"></option>
+        <option value="Css3"></option>
+        <option value="Web Standars"></option>
+        <option value="Python"></option>
+        <option value="Ruby on rails"></option>
+        <option value="PHp perls"></option>
+        <option value="Julia"></option>
+      </datalist>
+      <p>Lista de opciones</p>
+      <!-- poner las opciones tanto en la etiqueta option y en el atributo value-->
+      <select name="alternativas" id="examen">
+        <option value="always">always</option>
+        <option value="better">better</option>
+        <option value="change">change</option>
+        <option value="directory">directory</option>
+        <option value="emmet">emmet</option>
+      </select>
+      <br>
+      <p>Elije tu ciudad favorita</p>
+      <input list="ciudades">
+      <datalist id="ciudades">
+        <option value="tokio"></option>
+        <option value="paris"></option>
+        <option value="sydney"></option>
+        <option value="oregon"></option>
+      </datalist>
+      <hr>
+      <fieldset>
+        <legend><b>Select</b> (recomendado para pocas opciones)</legend>
+        <form action="">
+          <select name="" id="">
+            <option value="Javascript">Javascript</option>
+            <option value="HTML">HTML</option>
+            <option value="CSS3">CSS3</option>
+            <option value="Web Standards">Web Standards</option>
+          </select>
+        </form>
+      </fieldset>
+      <form action="/subscribe" method="post">
+        <fieldset>
+          <legend>Subscribe to the Newsletter</legend>
+          <input type="email" name="email">
+          <button>Ok</button>
+        </fieldset>
+      </form>
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>
