@@ -1,0 +1,18 @@
+p {
+  color: blue;
+  font-size: 40px;
+}
+
+/* .class */
+.paragraph {
+  color: red;
+  text-align: center;
+}
+
+/* #id */
+#phrase {
+  color: green;
+  font-size: 50px;
+  text-align: right;
+}
+

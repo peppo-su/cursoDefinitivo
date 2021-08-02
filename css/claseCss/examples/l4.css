@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+a {
+    color: #0d5676; 
+    text-decoration: none;  
+    font-size: 18px;
+    margin: 0 0 0 8px;
+}
+
+h1 {
+    color: blueviolet;
+
+}
+
+header {
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+
+.shows {
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer {
+   padding: 1em; 
+}
+

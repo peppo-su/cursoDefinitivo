@@ -1,0 +1,13 @@
+/*code,pre {
+    border:solid red 3px;
+    background-color: aqua;
+}*/
+
+figure, ul ,ol, li {
+    border:solid red 3px;
+    background-color: aqua;
+}
+
+li {
+    font-size: 18x;
+}

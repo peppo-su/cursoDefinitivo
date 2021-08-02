@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    background-image: url(./Image/Fondo.jpg)
+    
+    }
+    
+    .titulo{
+    font-family: Impact, Haettenschweiler, ‘Arial Narrow Bold’, sans-serif;
+    font-size: 50px;
+    -webkit-text-stroke: 2px black;
+    color: #e8eddf;
+    display: flex;
+    justify-content: center;
+    }
+    .container{
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    }
+    .container-cate{
+    padding: 10px;
+    background-image: url(./Image/Fondo-notas.jpg);
+    border-radius: 15px;
+    border: solid black;
+    }
+    .subtitulos-li{
+    font-family: ‘Franklin Gothic Medium’, ‘Arial Narrow’, Arial, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 15px;
+    }
+    .container img{
+    width: 150px;
+    border-radius: 15px;
+    }
+    ol{
+    display: flex;
+    flex-direction: column;
+    }
+    li{
+    font-family: ‘Franklin Gothic Medium’, ‘Arial Narrow’, Arial, sans-serif;
+    }
+    a{
+    color: green;
+    }

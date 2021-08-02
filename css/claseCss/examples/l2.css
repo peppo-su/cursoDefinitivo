@@ -1,0 +1,35 @@
+.bodycontainer {
+    background: darkslategrey;
+  }
+  
+.lista {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.items {
+    font-weight: 300;
+}
+.container {
+    background: #E8E800;
+}
+.titulillo {
+    background: #00E874;
+    color: white;
+}
+.mensajillo {
+    background: #00E874;
+    color: white;
+    font-size: large;
+    font-weight: 600;
+}
+.bananerillo-container{
+    block-size: 200px;
+    width: 100px; 
+    height: 20px;
+}
+.bananerillo-image {
+    width: 250px;
+    position: relative;
+    top:  50px;
+    left: 200px;
+}
