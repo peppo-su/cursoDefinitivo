@@ -1,0 +1,42 @@
+* {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+
+h1, h2 {
+    font-size: inherit;
+}  
+
+/* h1 {
+    color: red;
+} */
+
+/* h1 {
+    font-size: inherit;
+}
+
+p {
+    color: blue;
+} */
+
+body {
+    color: inherit;
+    margin-top: 0;
+}
+
+/* p {
+    color: green;
+} */
+
+/* em {
+    border: medium solid;
+} */
+
+
+p { 
+    color: green;
+    border: medium solid; 
+}
+
+
+

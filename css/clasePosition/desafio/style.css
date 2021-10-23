@@ -1,0 +1,28 @@
+.main {
+    display: inline-block;
+    
+}
+
+.title {
+    position: absolute;
+    display: inline-block;
+    top: 100px;
+    background-color: red;
+    margin: 0 auto;
+    max-width: 40%;
+    padding: 20px;
+}
+
+.text {
+    background-color: blue;
+    display: inline-block;
+    margin: 0 auto;
+    max-width: 60%;
+    padding: 20px;
+}
+
+
+
+
+
+

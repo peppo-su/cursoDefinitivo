@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* h1 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: serif;
+} */
+
+.title {
+    font-size: 34px;
+    font-family: monospace;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+
+.nav {
+    margin-top: 10px;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.nav li {
+    display: inline-block;
+    margin-left: 0;
+    padding-left: 10px;
+    margin-left: 25px;
+}
+
+.nav a {
+    color: black;
+    background-color: #13a4a4;
+    padding: 5px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.nav a::before {
+    background-color: #077272;
+    /* padding: 5px;
+    border-radius: 3px;
+    text-decoration: none; */
+    color: white;
+}
+
+.nav .blog {
+    background-color: #ff0000;
+}
+
+.nav .menu-icon {
+    background-color: #000fff;
+}
+
+/* ---- */
+
+header {
+    background-color: #0000ff;
+    /* padding-bottom: 10px; */
+    display: flex;
+}
+
+table{
+    border-collapse: collapse;
+}
+table, td, th {
+    border: 2px solid orange;
+    /* padding:20px; */
+}
+
+
+
+
+.message {
+    background-color: #ff9100;
+}
+
+#msg  {
+    background-color: #ff9100;
+}
+
+#msg {
+    font-family: monospace;
+    color: green;
+}
+
+.message {
+    font-family: monospace;
+    color: #0000ff;
+}
+
+p {
+    font-family: serif;
+    color: red;
+}
+
+/* .box-message {
+    font-family: serif;
+
+} */
+
+.main-nav {
+    margin-left: 30%;
+    margin-top: 20px;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    margin: 20px 0 0 20px;
+}
+
+
+
+

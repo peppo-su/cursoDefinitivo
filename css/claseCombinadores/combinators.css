@@ -1,0 +1,21 @@
+p {
+  font-size: 24px;
+}
+
+/* div > p {
+  color: #0000ff;
+}
+
+article > p {
+  color: #008000;
+}
+
+div p {
+  color: #ff0000;
+} */
+
+
+.main-card p {
+  color: blueviolet;
+}
+
